@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Título -->
+    <title>Login Dark/Light Mode</title>
+</head>
+<body>
+    
+    <main id="container">
+        
+        
+        <form id="login_form">
+            
+            <!-- Form Header -->
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode-icon" class="fa-solid fa-moon"></i>
+            </div>
+            
+            <!-- Social Media Links-->
+            <div id="social_media">
+                
+                <!-- Facebook -->
+                <a href="#" target="_blank">
+                    <img src="/assets/logos/facebook-logo.svg" alt=" Logo Facebook">
+                </a>
+                
+                <!-- Google -->
+                <a href="#" target="_blank">
+                    <img src="/assets/logos/google-logo.svg" alt=" Logo Google">
+                </a>
+                
+                <!-- Github -->
+                <a href="#" target="_blank">
+                    <img src="/assets/logos/github-logo.svg" alt=" Logo Github">
+                </a>
+            </div>
+            
+            <!-- Inputs -->
+            <div id="inputs">
+                
+                <!-- Name -->
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- Email -->
+                <div class="input-box">
+                    <label for="mail">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="mail">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- Password -->
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password">
+                        </div>
+                    </label>
+                    
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot Your Password?
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        
+        </form>
+        
+    </main>
+    
+</body>
+</html>
