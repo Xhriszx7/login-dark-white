@@ -55,7 +55,7 @@
     height: fit-content;
     
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
-    animation: dark-to-light 0.3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 /* Configurando Header */
@@ -182,28 +182,11 @@
     color: var(--color-light-50);
     background-color: var(--color-dark-100);
     
-    animation: light-to-dark 0.3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 /* Alterando cor dos Font Awesome */
 .dark .input-field input,
 .dark .input-field i {
     color: var(--color-light-50);
-}
-
-@keyframes dark-to-light {
-    0% {
-        background-color: var(--color-dark-100);
-    }
-    100% {
-        background-color: var(--color-light-50);
-    }
-}
-@keyframes light-to-dark {
-    0% {
-        background-color: var(--color-light-50);
-    }
-    100% {
-        background-color: var(--color-dark-100);
-    }
 }
